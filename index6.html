@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/ico.png" />
+    <title>Feliz Aniversário ✨</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+  font-family: "Poppins", sans-serif;
+background: linear-gradient(135deg, #f3f0f0 0%, #c5ae2d 100%);
+color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+  overflow-x: hidden;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+    
+      h1 {
+
+      margin-top: 2rem;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #000000;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      color: #333;
+    }
+
+      .container.center {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .section {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        position: relative;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f1d632;
+        overflow-x: hidden;
+      }
+      .container {
+        height: 100vh;
+        width: 31.25em;
+        position: relative;
+        margin: auto;
+      }
+      .center,
+      .container * {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+      }
+      .layer-1 {
+        background-color: #367bd0;
+        height: 7.5em;
+        width: 21.87em;
+        top: -7.5em;
+        background-size: 1.56em 9.37em;
+        background-position: 0 -1.25em;
+        background-image: radial-gradient(
+          circle at 0.78em 1em,
+          #f5f5f5 1.25em,
+          transparent 1.3em
+        );
+        animation: fall-1 8s infinite;
+      }
+      @keyframes fall-1 {
+        20%,
+        100% {
+          transform: translateY(35.62em);
+        }
+      }
+      .layer-1:before {
+        content: "";
+        position: absolute;
+        height: 1.25em;
+        width: 100%;
+        background-color: #f54597;
+        bottom: 0;
+      }
+      .layer-1:after {
+        content: "";
+        position: absolute;
+        height: 0.75em;
+        width: 0.75em;
+        background-color: #9a152b;
+        border-radius: 50%;
+        top: 2.81em;
+        left: 1.87em;
+        box-shadow: 3.12em 1.56em #f1663e, 5.31em -1em #f5e671,
+          9.37em 2.4em #9a152b, 12.5em -1.56em #f1663e, 14.68em 0 #f5e671,
+          18.75em 1.56em #9a152b;
+      }
+      .layer-2 {
+        height: 7.5em;
+        width: 15.62em;
+        background-color: #ff99b9;
+        top: -7.5em;
+        background-image: repeating-linear-gradient(
+          90deg,
+          transparent 0,
+          transparent 3.12em,
+          #ff4a83 3.12em,
+          #ff4a83 6.25em
+        );
+        animation: fall-2 8s infinite;
+      }
+      @keyframes fall-2 {
+        20% {
+          transform: translateY(0);
+        }
+        40%,
+        100% {
+          transform: translateY(28.12em);
+        }
+      }
+      .layer-3 {
+        background-color: #9a202f;
+        height: 7.5em;
+        width: 9.37em;
+        top: -7.5em;
+        background-size: 1.56em 9.37em;
+        background-position: 0 -1.25em;
+        background-image: radial-gradient(
+          circle at 0.78em 1em,
+          #ffee8d 1.25em,
+          transparent 1.3em
+        );
+        animation: fall-3 8s infinite;
+      }
+      @keyframes fall-3 {
+        40% {
+          transform: translateY(0);
+        }
+        60%,
+        100% {
+          transform: translateY(20.62em);
+        }
+      }
+      .layer-3:before {
+        content: "";
+        position: absolute;
+        height: 0.93em;
+        width: 100%;
+        top: 3.12em;
+        background-color: #ffee8d;
+      }
+      .layer-3:after {
+        content: "";
+        position: absolute;
+        background-color: #f54597;
+        height: 1.25em;
+        width: 1.25em;
+        border-radius: 50%;
+        top: -1.25em;
+        left: 0.37em;
+        box-shadow: 1.87em 0 #f54597, 3.75em 0 #f54597, 5.62em 0 #f54597,
+          7.5em 0 #f54597;
+      }
+      .candle {
+        height: 3.12em;
+        width: 0.75em;
+        background-color: #3aa2cf;
+        top: -3.12em;
+        border-radius: 0.12em 0.12em 0 0;
+        animation: fall-4 8s infinite;
+      }
+      @keyframes fall-4 {
+        60% {
+          transform: translateY(0);
+        }
+        80%,
+        100% {
+          transform: translateY(13.12em);
+        }
+      }
+      .candle:before {
+        content: "";
+        position: absolute;
+        background-color: #f1af3f;
+        height: 1.25em;
+        width: 1.25em;
+        margin: -0.25em;
+        border-radius: 50% 50% 50% 0;
+        top: -1.3em;
+        transform: rotate(135deg);
+        animation: flame 2s infinite;
+      }
+      @keyframes flame {
+        50% {
+          transform: scale(0.8) rotate(135deg);
+        }
+      }
+      @keyframes flame {
+      50% { transform: scale(0.8) rotate(135deg); }
+    }
+    .confetti {
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background-color: red;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: confettiFall 3s ease-out forwards;
+      pointer-events: none;
+      z-index: 1000;
+    }
+    @keyframes confettiFall {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+    }
+    .parabens {
+      position: absolute;
+      bottom: 2rem;
+      width: 100%;
+      text-align: center;
+      padding: 1rem;
+    }
+    .parabens h2 {
+      font-size: 1.8rem;
+      color: #000;
+      margin-bottom: 0.5rem;
+    }
+    .parabens p {
+      font-size: 1.1rem;
+      color: #333;
+    }
+    .number-21 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #f54597;
+    }
+
+      /* Seção 2 - Músicas */
+      .music-section {
+        background: linear-gradient(135deg, #000000, #333333);
+        padding: 4rem 2rem;
+      }
+
+      .music-container {
+        max-width: 1200px;
+        width: 100%;
+      }
+
+      .music-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .music-card {
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 15px;
+        padding: 1.5rem;
+        box-shadow: 0 5px 20px rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .music-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .music-title {
+        font-size: 1.1rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: #000000;
+      }
+
+      .youtube-player {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        border: none;
+      }
+
+      /* Seção 3 - Carrossel de Fotos */
+
+      .carousel-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ec1e40; /* cor rosa claro ao redor do coração */
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carousel-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #f3eef1;
+  mask-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M471.7 73.3c-54.5-46.4-136-38.6-186.4 13.1L256 116.1l-29.3-29.7C176.3 34.7 94.8 26.9 40.3 73.3-19.7 125.3-10.6 226.5 43 278.3L239.1 472c9.4 9.4 24.6 9.4 33.9 0l196.1-193.7c53.6-51.8 62.7-153 2.6-205z' fill='white'/></svg>");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 60vmin;
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'><path d='M471.7 73.3c-54.5-46.4-136-38.6-186.4 13.1L256 116.1l-29.3-29.7C176.3 34.7 94.8 26.9 40.3 73.3-19.7 125.3-10.6 226.5 43 278.3L239.1 472c9.4 9.4 24.6 9.4 33.9 0l196.1-193.7c53.6-51.8 62.7-153 2.6-205z' fill='white'/></svg>");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 60vmin;
+  animation: pulseHeart 2s infinite;
+  z-index: 1;
+}
+
+@keyframes pulseHeart {
+  0% {
+    mask-size: 58vmin;
+    -webkit-mask-size: 58vmin;
+  }
+  50% {
+    mask-size: 62vmin;
+    -webkit-mask-size: 62vmin;
+  }
+  100% {
+    mask-size: 58vmin;
+    -webkit-mask-size: 58vmin;
+  }
+}
+
+      .carousel-container {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        perspective: 1000px;
+        overflow: hidden;
+         z-index: 2;
+      }
+
+      .carousel-section h2 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 4rem; /* reduz a distância abaixo */
+  margin-top: -2rem;   /* opcional: sobe um pouco mais o título */
+}
+
+      .carousel-track {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform-style: preserve-3d;
+        transition: transform 1s;
+      }
+
+      .carousel-slide {
+        position: absolute;
+        width: 220px;
+        height: 280px;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      .carousel-slide img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .carousel-slide span {
+        font-size: 16px;
+        font-weight: bold;
+        color: #444;
+        line-height: 1.4;
+      }
+
+      .carousel-controls {
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        gap: 1rem;
+      }
+
+      .carousel-btn {
+        background: #000000;
+        color: white;
+        border: none;
+        padding: 0.8rem 1.5rem;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background 0.3s ease;
+      }
+
+      .carousel-btn:hover {
+        background: #333333;
+      }
+
+      /* Seção 4 - Calendário */
+      .calendar-section {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  padding: 3rem 1rem;
+  min-height: 100vh;
+}
+
+.calendar {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+}
+
+.calendar-day {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  user-select: none;
+}
+
+.calendar-day.header {
+  background: #1a1a1a;
+  color: #ffffff;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.calendar-day.birthday {
+  background: #ffe680;
+  color: #000000;
+  font-size: 1.2rem;
+  border: 2px solid #000000;
+}
+
+.calendar-day.regular {
+  background: #ffffff;
+  color: #000000;
+}
+
+.calendar-day.regular:hover {
+  background: #eaeaea;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+      /* Seção 5 - Sistema Solar */
+      .solar-section {
+        background: linear-gradient(135deg, #dfdfe2, #000033);
+        color: white;
+      }
+
+      .solar-system {
+        position: relative;
+        width: 400px;
+        height: 400px;
+        margin: 2rem auto;
+      }
+
+      .sun {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: radial-gradient(circle, #ffd700, #ffa500);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 30px #ffd700;
+        animation: glow 2s ease-in-out infinite alternate;
+      }
+
+      @keyframes glow {
+        0% {
+          box-shadow: 0 0 30px #ffd700;
+        }
+        100% {
+          box-shadow: 0 0 50px #ffd700;
+        }
+      }
+
+      .orbit {
+        position: absolute;
+        border: 2px solid rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .orbit1 {
+        width: 120px;
+        height: 120px;
+      }
+      .orbit2 {
+        width: 180px;
+        height: 180px;
+      }
+      .orbit3 {
+        width: 240px;
+        height: 240px;
+      }
+
+      .planet {
+        position: absolute;
+        border-radius: 50%;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .planet1 {
+        width: 20px;
+        height: 20px;
+        background: #ffffff;
+        animation: orbit1 8s linear infinite;
+      }
+
+      .planet2 {
+        width: 25px;
+        height: 25px;
+        background: #cccccc;
+        animation: orbit2 12s linear infinite;
+      }
+
+      .planet3 {
+        width: 30px;
+        height: 30px;
+        background: #666666;
+        animation: orbit3 16s linear infinite;
+      }
+
+      @keyframes orbit1 {
+        0% {
+          transform: translateX(-50%) rotate(0deg) translateX(60px) rotate(0deg);
+        }
+        100% {
+          transform: translateX(-50%) rotate(360deg) translateX(60px)
+            rotate(-360deg);
+        }
+      }
+
+      @keyframes orbit2 {
+        0% {
+          transform: translateX(-50%) rotate(0deg) translateX(90px) rotate(0deg);
+        }
+        100% {
+          transform: translateX(-50%) rotate(360deg) translateX(90px)
+            rotate(-360deg);
+        }
+      }
+
+      @keyframes orbit3 {
+        0% {
+          transform: translateX(-50%) rotate(0deg) translateX(120px)
+            rotate(0deg);
+        }
+        100% {
+          transform: translateX(-50%) rotate(360deg) translateX(120px)
+            rotate(-360deg);
+        }
+      }
+
+      .countdown {
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .countdown-timer {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .countdown-item {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 1rem;
+        border-radius: 10px;
+        backdrop-filter: blur(5px);
+      }
+
+      .countdown-number {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #ffffff;
+      }
+
+      .countdown-label {
+        font-size: 0.9rem;
+        color: #ccc;
+      }
+
+      h1,
+      h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+        color: #000000;
+      }
+
+      .music-section h2 {
+        color: #ffffff;
+      }
+
+      .calendar-section h2 {
+        color: #ffffff;
+      }
+
+      .solar-section h2 {
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+        .section {
+          padding: 1rem;
+        }
+
+        .music-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .carousel-container {
+          height: 300px;
+        }
+
+        .carousel-slide {
+          width: 250px;
+          height: 250px;
+        }
+
+        .countdown-timer {
+          flex-wrap: wrap;
+          gap: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Seção 1: Bolo de Aniversário -->
+    <section class="section cake-section">
+      <div class="container center cake-section">
+        <div class="candle"></div>
+        <div class="layer-1"></div>
+        <div class="layer-2"></div>
+        <div class="layer-3"></div>
+        <h1>🎉 Feliz Aniversário! 🎉</h1>
+    
+  </div>
+        <div class="parabens">
+            <h2>🎂 Parabéns minha preta! 🎂</h2>
+        <p class="number-21">        Hoje celebramos você, uma pessoa incrível que ilumina a vida de todos ao seu redor. Que cada momento deste novo ano seja repleto de alegria, amor, realizações,saúde e muitas conquistas!. Você merece tudo de melhor que a vida tem a oferecer!
+        </p>
+        <p ></p>
+        </div>
+        
+  
+    </section>
+
+    <!-- Seção 3: Carrossel de Fotos -->
+    <section class="section carousel-section">
+      
+      <h2>✨ VOCÊ É ESPECIAL ✨</h2>
+      <div class="carousel-container">
+        <div class="carousel-track" id="carouselTrack">
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(0deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/2.jpg" alt="" /> 💝 <br />Linda
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(72deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/9.jpg" alt="" />
+            🌸 <br />Carinhosa
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(144deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/4.jpg" alt="" />
+            ✨ <br />Sincera
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(216deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/10.jpg" alt="" />
+            🎀 <br />Inteligente
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(288deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/5.jpg" alt="" />
+            💖 <br />Companheira
+          </div>
+          <div
+            class="carousel-slide"
+            style="
+              transform: translateX(-50%) translateY(-50%) rotateY(288deg)
+                translateZ(200px);
+            "
+          >
+            <img src="img/6.jpg" alt="" />
+            💖 <br />Companheira
+          </div>
+        </div>
+        
+      </div>
+      <div class="carousel-controls">
+          <button class="carousel-btn" onclick="previousSlide()">
+            ◀ Anterior
+          </button>
+          <button class="carousel-btn" onclick="nextSlide()">Próximo ▶</button>
+        </div>
+    </section>
+
+    <!-- Seção 2: Músicas -->
+    <section class="section music-section">
+      <h2>🎶 Musicas que combinam com você 🎶</h2>
+      <div class="music-container">
+        <div class="music-grid" id="musicGrid">
+          <!-- Músicas serão carregadas aqui -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 4: Calendário -->
+    <section class="section calendar-section">
+      <h2>📅 Calendário Dia Especial</h2>
+      <div class="calendar">
+        <div class="calendar-header">Julho 2025</div>
+        <div class="calendar-grid" id="calendarGrid">
+          <!-- Calendário será gerado aqui -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 5: Sistema Solar -->
+    <section class="section solar-section">
+      <h2>🌌Tempo para Próximo Aniversário</h2>
+      <div class="solar-system">
+        <div class="sun"></div>
+        <div class="orbit orbit1">
+          <div class="planet planet1"></div>
+        </div>
+        <div class="orbit orbit2">
+          <div class="planet planet2"></div>
+        </div>
+        <div class="orbit orbit3">
+          <div class="planet planet3"></div>
+        </div>
+      </div>
+
+      <div class="countdown">
+        <h3>⏰ Próximo Aniversário</h3>
+        <div class="countdown-timer" id="countdownTimer">
+          <div class="countdown-item">
+            <div class="countdown-number" id="days">000</div>
+            <div class="countdown-label">Dias</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="hours">00</div>
+            <div class="countdown-label">Horas</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="minutes">00</div>
+            <div class="countdown-label">Minutos</div>
+          </div>
+          <div class="countdown-item">
+            <div class="countdown-number" id="seconds">00</div>
+            <div class="countdown-label">Segundos</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      // Dados das músicas
+      const musicData = [
+        {
+          title: "Daniel Caesar - Get You ft. Kali Uchis",
+          url: "https://youtu.be/DfNcDIyBWdE?list=RDDfNcDIyBWdE",
+        },
+        {
+          title: "Daniel Caesar - Best Part (Audio) ft. H.E.R.",
+          url: "https://youtu.be/vBy7FaapGRo",
+        },
+        {
+          title: "Frank Ocean - Pink + White",
+          url: "https://youtu.be/uzS3WG6__G4",
+        },
+        { title: "Alee - Hotel", url: "https://youtu.be/Ns71j6UIGHQ" },
+        { title: "Alee - Estresse", url: "https://youtu.be/jvLKWg0lD6c" },
+        {
+          title: "Jorge Ben - Amante Amado",
+          url: "https://youtu.be/Ws3r24Uhu74",
+        },
+        {
+          title: "Vanessa da Mata - Ainda Bem",
+          url: "https://youtu.be/h9-LLQqAOXQ",
+        },
+        {
+          title: "Tim Maia - Eu amo você",
+          url: "https://youtu.be/qBBwXuEV4jA",
+        },
+        {
+          title: "Dizeres - Orgânico, Lourena e Sant",
+          url: "https://youtu.be/lxhqCcrnTv4",
+        },
+        {
+          title: "Deixa Alagar (Ao Vivo) - Grupo Revelação",
+          url: "https://youtu.be/ebGXBgmVcNw",
+        },
+        {
+          title: "Pixote - O Amor Não Tem Culpa",
+          url: "https://youtu.be/-fl7f7_1xBY",
+        },
+        { title: "Tiee - Homem Aranha", url: "https://youtu.be/ClYB4yEj5kM" },
+        { title: "BK - Planos", url: "https://youtu.be/V141wUSkTfk" },
+        {
+          title: "Nem pensar - Exalta samba",
+          url: "https://youtu.be/J9owAPF4ABw?list=RDJ9owAPF4ABw",
+        },
+        {
+          title: "Grupo Menos é Mais - Deixa Tudo Como Tá",
+          url: "https://youtu.be/HiZihsgWZuk?list=RDHiZihsgWZuk",
+        },
+        {
+          title: "Eu sou feliz assim (Ao vivo) - Ferrugem",
+          url: "https://youtu.be/Q0_hMiPKRE4?list=RDQ0_hMiPKRE4",
+        },
+        {
+          title: "Ferrugem - Eu Não Sou de Me Entregar",
+          url: "https://youtu.be/qr3zfkvuMDM?list=RDqr3zfkvuMDM",
+        },
+        {
+          title: "Iguinho e Lulinha - não me julgue",
+          url: "https://youtu.be/DJJmeeY_m2E?list=RDDJJmeeY_m2E",
+        },
+        {
+          title: "Bem melhor - MC cabelinho",
+          url: "https://youtu.be/kWvFoR-Wf-I?list=RDkWvFoR-Wf-I",
+        },
+        {
+          title: "Situações - YOÙN e Delacruz",
+          url: "https://youtu.be/y-BLWvTCmOo?list=RDy-BLWvTCmOo",
+        },
+        {
+          title: "GIVĒON - Like I Want You ",
+          url: "https://youtu.be/uCPjdfCUowg?list=RDuCPjdfCUowg",
+        },
+      ];
+
+      // Função para explodir o bolo
+       function createConfettiPiece(container) {
+      const confetti = document.createElement('div');
+      confetti.className = 'confetti';
+      confetti.style.left = Math.random() * 100 + '%';
+      confetti.style.top = '-10px';
+      confetti.style.backgroundColor = ['#FF6347', '#32CD32', '#FFD700', '#1E90FF', '#FF69B4'][Math.floor(Math.random() * 5)];
+      container.appendChild(confetti);
+      setTimeout(() => confetti.remove(), 3000);
+    }
+
+    function startConfettiSectionOnly() {
+      const section = document.querySelector('.cake-section');
+      setInterval(() => {
+        for (let i = 0; i < 5; i++) {
+          createConfettiPiece(section);
+        }
+      }, 300);
+    }
+
+    document.addEventListener('DOMContentLoaded', startConfettiSectionOnly);
+
+      // Carregar músicas
+      function loadMusic() {
+        const musicGrid = document.getElementById("musicGrid");
+
+        musicData.forEach((music) => {
+          const musicCard = document.createElement("div");
+          musicCard.className = "music-card";
+
+          const videoId = music.url.split("/").pop().split("?")[0];
+          const embedUrl = `https://www.youtube.com/embed/${videoId}`;
+
+          musicCard.innerHTML = `
+                    <div class="music-title">${music.title}</div>
+                    <iframe class="youtube-player" src="${embedUrl}" allowfullscreen></iframe>
+                `;
+
+          musicGrid.appendChild(musicCard);
+        });
+      }
+
+      // Carrossel
+      let currentSlide = 0;
+      const totalSlides = 5;
+
+      function updateCarousel() {
+        const track = document.getElementById("carouselTrack");
+        const rotation = currentSlide * -72; // 360 / 5 slides
+        track.style.transform = `rotateY(${rotation}deg)`;
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+      }
+
+      function previousSlide() {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateCarousel();
+      }
+
+      // Calendário
+      function generateCalendar() {
+        const calendarGrid = document.getElementById("calendarGrid");
+        const daysOfWeek = ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"];
+
+        // Cabeçalho dos dias da semana
+        daysOfWeek.forEach((day) => {
+          const dayElement = document.createElement("div");
+          dayElement.className = "calendar-day header";
+          dayElement.textContent = day;
+          calendarGrid.appendChild(dayElement);
+        });
+
+        // Dias do mês (julho 2025)
+        const firstDay = new Date(2025, 6, 1).getDay(); // 0 = domingo
+        const daysInMonth = 31;
+
+        // Espaços vazios no início
+        for (let i = 0; i < firstDay; i++) {
+          const emptyDay = document.createElement("div");
+          emptyDay.className = "calendar-day";
+          calendarGrid.appendChild(emptyDay);
+        }
+
+        // Dias do mês
+        for (let day = 1; day <= daysInMonth; day++) {
+          const dayElement = document.createElement("div");
+          dayElement.className = "calendar-day regular";
+
+          if (day === 15) {
+            dayElement.className = "calendar-day birthday";
+            dayElement.innerHTML = "15<br>🎂";
+          } else {
+            dayElement.textContent = day;
+          }
+
+          calendarGrid.appendChild(dayElement);
+        }
+      }
+
+      // Contagem regressiva
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const currentYear = new Date().getFullYear();
+        let birthday = new Date(currentYear, 6, 15, 0, 0, 0).getTime(); // 15 de julho
+
+        // Se já passou o aniversário deste ano, conta para o próximo
+        if (now > birthday) {
+          birthday = new Date(currentYear + 1, 6, 15, 0, 0, 0).getTime();
+        }
+
+        const distance = birthday - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("days").textContent = days
+          .toString()
+          .padStart(3, "0");
+        document.getElementById("hours").textContent = hours
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("minutes").textContent = minutes
+          .toString()
+          .padStart(2, "0");
+        document.getElementById("seconds").textContent = seconds
+          .toString()
+          .padStart(2, "0");
+      }
+
+      // Inicializar tudo
+      document.addEventListener("DOMContentLoaded", function () {
+        loadMusic();
+        generateCalendar();
+        updateCountdown();
+
+        // Atualizar contagem regressiva a cada segundo
+        setInterval(updateCountdown, 1000);
+
+        // Auto-rotate carrossel
+        setInterval(() => {
+          nextSlide();
+        }, 5000);
+      });
+
+      // Smooth scroll
+      document.addEventListener(
+        "wheel",
+        function (e) {
+          e.preventDefault();
+          window.scrollBy({
+            top: e.deltaY,
+            behavior: "smooth",
+          });
+        },
+        { passive: false }
+      );
+    </script>
+  </body>
+</html>
